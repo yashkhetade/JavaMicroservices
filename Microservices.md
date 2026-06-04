@@ -141,7 +141,18 @@ It includes logging and monitoring
 1) Whenever a client will send request it will first go to gateway 
 2) From gateway  request is routed to MS
 3) Gateway is responsible for routing request to respective MS , Gateway also handles authentication , applies rate limiting , logs requests etc 
-4) 
+
+## Management and Orchestration
+
+In order to communicate betweeen two ms 
+we need the address of both ms 
+so with the help of static configuration in each ms will can do it 
+like we can use url of rewards in credit card etc 
+but what if some changes the url 
+
+### Service Registry 
+here all the ms are registered
+
 
 
 
