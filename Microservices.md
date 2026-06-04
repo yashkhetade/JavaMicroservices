@@ -183,7 +183,7 @@ Gateway
 
 Import the spring-cloud-gateway library
 
-
+Client Only Know the URL OF API Gateway
 
 
 
