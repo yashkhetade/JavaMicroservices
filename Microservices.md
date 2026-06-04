@@ -39,6 +39,13 @@
 4) As the number of modules increase, then application size increases, downtime for re-deployment may also increase accordingly.
 
 
+## It is difficult to scale  Monolithic Application 
+
+## Lets suppose we have created sbi yono application backend and deployed it on aws env
+
+## If more request and user are visting the fund transfer feature then i need to scale entire application rather than a single feature rewards
+
+## But due to Monolithic Architecture unneccesary we need to scale rewards , credit cards and other features to
 
 ## What are Microservices (MS) -
 
