@@ -156,11 +156,34 @@ here all new urls are updated
 
 # API Gateway 
 
+## It is a single Entry Point for all MS
+
+It is itself a MS 
+
+Why we need   API Gateway  ?
+
 1) Lets Suppose a client (eg a react application) wants to communicate with  MS 
 2) So Client needs a url i.e http://rewards-service:8080
 3) Should your client be aware of multiple MS urls ?
 4) eg rewardsCollect is api from rewards MS shoulds client needs to know aboout it ? Ans is NO
-5)  
+5) If MS location changes we need to update the urls at client
+6) The client  (eg a react application) can pull the urls from eureka server also
+7) but again should the The client  (eg a react application) should go and talk to eureka server
+8) It is overhead for client
+9) Lets say we want to set rate limiting , and security for each MS i need to handle again
+10) Gatewy takes url from eureka server
+
+So due to above multiple reasons we need API Gateway 
+
+Gateway 
+1) Service Discovery
+2) Security
+3) Load Balancing
+4) All Cross Cutting Concerns 
+
+Import the spring-cloud-gateway library
+
+
 
 
 
