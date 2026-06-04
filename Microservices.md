@@ -107,10 +107,22 @@ One MS will send message to Message Broker then message broker to another MS
 
 ### Lets say if rewards ms fails the credit card service will still run because it is independent
 
-
 # Typical System Design 
 
 Client -> Edge -> Application Layer -> DB -> Observability
+
+# In  edge layer 
+
+-  DNS will get resolved i.e url will be resolved
+-  Then we have CDN for region specific content delivery
+-  Then we have load balancer
+-  Then API Gateway i.e it routes request to MS
+  
+# DB
+Do learn Database System Design Concepts like Database Replication , Database Sharding , Database Partioning 
+
+# Observability
+It includes logging and monitoring
 
 
 
