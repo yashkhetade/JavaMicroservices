@@ -136,4 +136,12 @@ It includes logging and monitoring
 5) Gateway to MS request is routed
 6) then DB / cache 
 
+## Flow -
+
+1) Whenever a client will send request it will first go to gateway 
+2) From gateway  request is routed to MS
+3) Gateway is responsible for routing request to MS , Gateway also handles authentication , applies rate limiting , logs requests etc 
+4) 
+
+
 
