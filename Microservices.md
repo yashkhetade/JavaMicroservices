@@ -140,7 +140,7 @@ It includes logging and monitoring
 
 1) Whenever a client will send request it will first go to gateway 
 2) From gateway  request is routed to MS
-3) Gateway is responsible for routing request to MS , Gateway also handles authentication , applies rate limiting , logs requests etc 
+3) Gateway is responsible for routing request to respective MS , Gateway also handles authentication , applies rate limiting , logs requests etc 
 4) 
 
 
