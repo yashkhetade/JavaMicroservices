@@ -47,6 +47,10 @@
 
 ## But due to Monolithic Architecture unneccesary we need to scale rewards , credit cards and other features to
 
+## Lets say we have some changes in rewards feature can i independently deploy rewards feature ? NO
+
+## In case of Monolithic Architecture all the other features will be deployed again with rewards
+
 ## What are Microservices (MS) -
 
 # The term Microservices was first introduced by Martin Fowler and used at a software architects’ workshop in 2011 for the first time. 
