@@ -154,6 +154,19 @@ but what if some changes the url
 here all the ms are registered
 here all new urls are updated 
 
+# API Gateway 
+
+1) Lets Suppose a client (eg a react application) wants to communicate with  MS 
+2) So Client needs a url i.e http://rewards-service:8080
+3) Should your client be aware of multiple MS urls ?
+4) eg rewardsCollect is api from rewards MS shoulds client needs to know aboout it ? Ans is NO
+5)  
+
+
+
+
+
+
 
 
 
