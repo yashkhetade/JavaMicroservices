@@ -108,6 +108,9 @@ One MS will send message to Message Broker then message broker to another MS
 ### Lets say if rewards ms fails the credit card service will still run because it is independent
 
 
+# Typical System Design 
+
+Client -> Edge -> Application Layer -> DB -> Observability
 
 
 
