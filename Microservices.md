@@ -6,7 +6,7 @@
 
 ## here we put everything at one place 
 
-## here all features are in single application 
+## here all features or we can say modules  are in single application 
 
 ## It is a single unified system where all features are build and deployed together
 
@@ -76,6 +76,10 @@ Eg There will be a diffrerent Microservice for rewards , creditcard,fundtransfer
 # All Features  of project  are independently created 
 
 # Different Technologies i.e one MS can be build on nodejs one on java etc 
+
+## Each MS will have its own deployment pipeline and infrastructure 
+
+
 
 
 
