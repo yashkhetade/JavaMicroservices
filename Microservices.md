@@ -6,7 +6,7 @@
 
 ## here we put everything at one place 
 
-## here all features or we can say modules  are in single application 
+## here all features or we can say modules of a project  are in single application 
 
 ## It is a single unified system where all features are build and deployed together
 
