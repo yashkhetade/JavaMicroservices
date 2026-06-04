@@ -99,6 +99,8 @@ i.e using resttemplate , restclient, feignclient etc
 Event Driven or Producer Consumer Model
 One MS will send message to Message Broker then message broker to another MS
 
+## Famous Message Brokers are RABBITMQ and apache KAFKA 
+
 
 
 
