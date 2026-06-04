@@ -105,6 +105,7 @@ One MS will send message to Message Broker then message broker to another MS
 
 ### In case of large enterprise applications like banking applications eg yono sbi we can use 
 
+### Lets say if rewards ms fails the credit card service will still run because it is independent
 
 
 
