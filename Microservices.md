@@ -183,7 +183,10 @@ Gateway
 
 Import the spring-cloud-gateway library
 
-Client Only Know the URL OF API Gateway
+# Client Only Know the URL OF API Gateway
+## API Gateway will check for cross cutting concerns like authentication ,authorization etc 
+## If user is not authorized logging will also be done 
+## Rate limiting if our ms can handle 1k requests but more than that if requests come then that more requests will be rejected
 
 
 
