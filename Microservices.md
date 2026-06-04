@@ -51,6 +51,8 @@
 
 ## In case of Monolithic Architecture all the other features will be deployed again with rewards
 
+# i.e we need to deploy entire Application when there is a change in single module/feature also
+
 ## What are Microservices (MS) -
 
 # The term Microservices was first introduced by Martin Fowler and used at a software architects’ workshop in 2011 for the first time. 
@@ -70,6 +72,8 @@ Eg There will be a diffrerent Microservice for rewards , creditcard,fundtransfer
 # Independent Deployment 
 
 # Different Technologies i.e one MS can be build on nodejs one on java etc 
+
+
 
 
 
