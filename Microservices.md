@@ -71,6 +71,10 @@ Eg There will be a diffrerent Microservice for rewards , creditcard,fundtransfer
 
 # Independent Deployment 
 
+# Easy to scale applications 
+
+# All Features  of project  are independently created 
+
 # Different Technologies i.e one MS can be build on nodejs one on java etc 
 
 
