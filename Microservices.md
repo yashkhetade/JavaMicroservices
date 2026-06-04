@@ -124,6 +124,9 @@ Do learn Database System Design Concepts like Database Replication , Database Sh
 # Observability
 It includes logging and monitoring
 
+## Use cache to reduce hits to DB 
+
+
 
 
 
