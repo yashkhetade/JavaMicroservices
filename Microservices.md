@@ -89,6 +89,16 @@ Eg There will be a diffrerent Microservice for rewards , creditcard,fundtransfer
 
 ### a) Synchronous b) ASynchronous
 
+# a) Synchronous
+
+In case of Synchronous communication a simple http or https call is made between the two Microservices ( eg between credit card and rewards)
+i.e using resttemplate , restclient, feignclient etc 
+
+# b) ASynchronous
+
+Event Driven or Producer Consumer Model
+One MS will send message to Message Broker then message broker to another MS
+
 
 
 
