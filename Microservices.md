@@ -79,6 +79,11 @@ Eg There will be a diffrerent Microservice for rewards , creditcard,fundtransfer
 
 ## Each MS will have its own deployment pipeline and infrastructure 
 
+## If a  credit card service wants to send data to  rewards service how it is possible in Microservices ?
+
+### Bcz in Monolithic Architecture only a simple function call is needed 
+
+### In case of  Microservices we need to manage interservice communication also
 
 
 
