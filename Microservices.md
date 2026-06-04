@@ -85,7 +85,9 @@ Eg There will be a diffrerent Microservice for rewards , creditcard,fundtransfer
 
 ### In case of  Microservices we need to manage interservice communication also
 
+## There are 2 types of interservice communication 
 
+### a) Synchronous b) ASynchronous
 
 
 
