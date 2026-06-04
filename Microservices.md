@@ -152,6 +152,7 @@ but what if some changes the url
 
 ### Service Registry 
 here all the ms are registered
+here all new urls are updated 
 
 
 
