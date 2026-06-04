@@ -111,7 +111,7 @@ One MS will send message to Message Broker then message broker to another MS
 
 Client -> Edge -> Application Layer -> DB -> Observability
 
-# In  edge layer 
+# In  edge  layer 
 
 -  DNS will get resolved i.e url will be resolved
 -  Then we have CDN for region specific content delivery
@@ -127,6 +127,13 @@ It includes logging and monitoring
 ## Use cache to reduce hits to DB 
 
 
+# Big Picture
 
+1) Client will send request to your application
+2) There will be CDN
+3) Sometimes API Gateway handles load balancing also
+4) Once Gateway decide where to route request
+5) Gateway to MS request is routed
+6) then DB / cache 
 
 
