@@ -189,6 +189,13 @@ Import the spring-cloud-gateway library
 ## If user is not authorized logging will also be done 
 ## Rate limiting if our ms can handle 1k requests but more than that if requests come then that more requests will be rejected
 
+# Gateway Creation -
+
+## Use Spring Initializer
+
+# Use Reactive Gateway Dependency 
+# Reactive Gateway  is build on top of webflux
+# Eureka discovery client (as Gateway will communicate with eureka server)
 
 
 
