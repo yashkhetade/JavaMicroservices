@@ -179,7 +179,8 @@ Gateway
 1) Service Discovery
 2) Security
 3) Load Balancing
-4) All Cross Cutting Concerns 
+4) All Cross Cutting Concerns
+5) Request and Response can be modified at gateway eg - headers can be added
 
 Import the spring-cloud-gateway library
 
